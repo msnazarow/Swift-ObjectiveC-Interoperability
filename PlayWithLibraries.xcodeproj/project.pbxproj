@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281B3DB92898D79F0041E2E3 /* SwiftOneFileB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281B3DB82898D79F0041E2E3 /* SwiftOneFileB.swift */; };
+		281B3DBC2898D7DA0041E2E3 /* ObjcOneFileC.m in Sources */ = {isa = PBXBuildFile; fileRef = 281B3DBB2898D7DA0041E2E3 /* ObjcOneFileC.m */; };
 		551EF806238AA57100982035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF805238AA57100982035 /* AppDelegate.swift */; };
 		551EF808238AA57100982035 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF807238AA57100982035 /* SceneDelegate.swift */; };
 		551EF80A238AA57100982035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551EF809238AA57100982035 /* ViewController.swift */; };
@@ -118,6 +120,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		281B3DB62898D1A10041E2E3 /* PlayWithLibraries-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayWithLibraries-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		281B3DB82898D79F0041E2E3 /* SwiftOneFileB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOneFileB.swift; sourceTree = "<group>"; };
+		281B3DBA2898D7DA0041E2E3 /* ObjcOneFileC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcOneFileC.h; sourceTree = "<group>"; };
+		281B3DBB2898D7DA0041E2E3 /* ObjcOneFileC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcOneFileC.m; sourceTree = "<group>"; };
 		551EF802238AA57100982035 /* PlayWithLibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithLibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		551EF805238AA57100982035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		551EF807238AA57100982035 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,7 +142,6 @@
 		551EF85D238AD2A400982035 /* ObjCTwoFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCTwoFile.m; sourceTree = "<group>"; };
 		551EF85F238AD37500982035 /* ObjectiveLibraryOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveLibraryOne.h; sourceTree = "<group>"; };
 		551EF860238AD4B200982035 /* ObjectiveCLibraryOne.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ObjectiveCLibraryOne.xcconfig; sourceTree = "<group>"; };
-		551EF867238B7EDB00982035 /* PlayWithLibraries-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlayWithLibraries-Bridging-Header.h"; sourceTree = "<group>"; };
 		551EF86C238C1FED00982035 /* ObjCAppTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCAppTarget.h; sourceTree = "<group>"; };
 		551EF86D238C1FED00982035 /* ObjCAppTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCAppTarget.m; sourceTree = "<group>"; };
 		551EF870238C250F00982035 /* SwiftAppTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAppTarget.swift; sourceTree = "<group>"; };
@@ -220,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				551EF813238AA57300982035 /* Info.plist */,
-				551EF867238B7EDB00982035 /* PlayWithLibraries-Bridging-Header.h */,
+				281B3DB62898D1A10041E2E3 /* PlayWithLibraries-Bridging-Header.h */,
 				551EF874238CB65700982035 /* Swift */,
 				551EF86F238C1FFB00982035 /* Objc */,
 				551EF86B238C191900982035 /* views+others */,
@@ -274,6 +279,8 @@
 			children = (
 				551EF86C238C1FED00982035 /* ObjCAppTarget.h */,
 				551EF86D238C1FED00982035 /* ObjCAppTarget.m */,
+				281B3DBA2898D7DA0041E2E3 /* ObjcOneFileC.h */,
+				281B3DBB2898D7DA0041E2E3 /* ObjcOneFileC.m */,
 			);
 			name = Objc;
 			sourceTree = "<group>";
@@ -282,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				551EF870238C250F00982035 /* SwiftAppTarget.swift */,
+				281B3DB82898D79F0041E2E3 /* SwiftOneFileB.swift */,
 				551EF809238AA57100982035 /* ViewController.swift */,
 			);
 			path = Swift;
@@ -575,6 +583,8 @@
 				551EF86E238C1FED00982035 /* ObjCAppTarget.m in Sources */,
 				551EF80A238AA57100982035 /* ViewController.swift in Sources */,
 				551EF806238AA57100982035 /* AppDelegate.swift in Sources */,
+				281B3DB92898D79F0041E2E3 /* SwiftOneFileB.swift in Sources */,
+				281B3DBC2898D7DA0041E2E3 /* ObjcOneFileC.m in Sources */,
 				551EF808238AA57100982035 /* SceneDelegate.swift in Sources */,
 				551EF871238C250F00982035 /* SwiftAppTarget.swift in Sources */,
 			);
